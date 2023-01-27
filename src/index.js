@@ -3,7 +3,7 @@ function calc(a, b) {
         if (!isValidNumber(a, b)) {
             return null;
         }
-        if (!isValidOperation(operation)) {
+        if (!isValidOperation(operation.toUpperCase())) {
             return null;
         }
 
