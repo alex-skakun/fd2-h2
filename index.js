@@ -18,6 +18,7 @@ function calc(value1, value2) {
             case 'divide':
                 console.log(value1 / value2);
                 break;
+            default: return null;   
         }
     }
 
