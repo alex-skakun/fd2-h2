@@ -45,17 +45,17 @@ function resolve(action){
 }
 
 // функция cals 
-// let calc = function(numOne, numTwo){
-//             this.numOne = numOne,
-//             this.numTwo = numTwo;
-//             return resolve;
-//         };
+let calc = function(numOne, numTwo){
+            this.numOne = numOne,
+            this.numTwo = numTwo;
+            return resolve;
+        };
 
-function calc(numOne, numTwo){
-    this.numOne = numOne,
-    this.numTwo = numTwo;
-    return resolve;
-};
+// function calc(numOne, numTwo){
+//     this.numOne = numOne,
+//     this.numTwo = numTwo;
+//     return resolve;
+// };
 
 // console.log(calc(10, 5)('Add'));
 // console.log(calc(10, 5)('ADD'));
