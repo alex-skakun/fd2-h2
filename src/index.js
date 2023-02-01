@@ -26,7 +26,6 @@ function calc (numOne, numTwo){
         }
         return result; 
     }
-
 //второй способ
 function calc (numOne, numTwo){
     return function (options){};
