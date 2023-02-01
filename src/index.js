@@ -31,7 +31,6 @@ function calc (numOne, numTwo){
 function calc (numOne, numTwo){
     return function (options){};
     }
-  
 function options () {
     const operation = {
         add: "add",
