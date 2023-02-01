@@ -24,7 +24,7 @@ function calc (numOne, numTwo){
         } else {
            result = null;
         }
-            
+        return result; 
     }
 
 //второй способ
